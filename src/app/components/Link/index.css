@@ -1,0 +1,26 @@
+.link {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.link:hover,
+.link:active,
+.link:focus {
+    cursor: pointer;
+    color: var(--color-green);
+}
+
+.link__image {
+    height: 30px;
+    width: 30px;
+    margin-right: 16px;
+}
+
+.link__image:hover {
+    /*background: var(--color-green);*/
+    filter: saturate(100%);
+}

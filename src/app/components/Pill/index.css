@@ -1,0 +1,23 @@
+.pill {
+    display: inline-block;
+    padding: 7px 15px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    margin: 5px 0;
+}
+
+.pill-green {
+    background: var(--color-green)
+}
+
+.pill-yellow {
+    background: var(--color-yellow)
+}
+
+.pill-reddish {
+    background: var(--color-reddish)
+}
+
+.pill-grey {
+    background: var(--color-grey)
+}
