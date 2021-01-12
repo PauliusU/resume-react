@@ -1,34 +1,10 @@
-h3 {
-    font-size: 24px;
-    text-transform: uppercase;
+.content-box h3 {
+  font-size: 24px;
+  text-transform: uppercase;
 }
 
 .content-box__content {
-    margin-top: 24px;
-    display: grid;
-    justify-items: start;
-}
-
-.links {
-    grid-area: 1 / 1 / 2 / 2;
-}
-
-.about {
-    grid-area: 1 / 2 / 2 / 4;
-}
-
-.education {
-    grid-area: 2 / 1 / 3 / 2;
-}
-
-.personal-skills {
-    grid-area: 2 / 2 / 3 / 3;
-}
-
-.technical-skills {
-    grid-area: 2 / 3 / 3 / 4;
-}
-
-.work-experience {
-    grid-area: 3 / 1 / 4 / 4;
+  margin-top: 24px;
+  display: grid;
+  justify-items: start;
 }

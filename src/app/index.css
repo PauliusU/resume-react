@@ -3,154 +3,19 @@
 \*------------------------------------*/
 
 :root {
-    --color-green: #7abcac;
-    --color-black: #222222;
-    --color-white: #eeeeee;
-    --color-grey: #dcdcdc;
-    --color-yellow: #d8da79;
-    --color-reddish: #c29486;
+  --color-green: #7abcac;
+  --color-black: #222222;
+  --color-white: #eeeeee;
+  --color-grey: #dcdcdc;
+  --color-yellow: #d8da79;
+  --color-reddish: #c29486;
 
-    --size-containter: 1080px;
+  --size-containter: 1080px;
 }
 
 .App {
-    max-width: var(--size-containter);
-    width: 100%;
-    min-height: 100vh;
-    margin: 0 auto;
-}
-
-/*------------------------------------*\
-  # Header
-\*------------------------------------*/
-.header {
-    display: flex;
-    margin-top: 36px;
-    padding-bottom: 48px;
-}
-
-.navigation {
-    position: absolute;
-    z-index: -1;
-    max-width: var(--size-containter);
-    width: 100%;
-    top: 0;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    padding: 16px 24px;
-    background: var(--color-green);
-    box-sizing: border-box;
-}
-
-.header__name-container {
-    display: inline-block;
-    border: 4px var(--color-black) solid;
-    padding: 48px 128px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.header__name-title {
-    font-size: 24px;
-    line-height: 28px;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin-top: 16px;
-    background-color: var(--color-black);
-    padding: 0 24px;
-    color: var(--color-white);
-    display: inline-block;
-}
-
-/*------------------------------------*\
-  # Main
-\*------------------------------------*/
-
-.main {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, auto);
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
-    margin: 0 auto;
-    justify-content: center;
-}
-
-.main .divider:last-child {
-    grid-area: 4 / 1 / 5 / 4;
-}
-
-.experiences-container {
-    width: 100%;
-    /*display: flex;*/
-    /*justify-content: space-around;*/
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
-
-.experiences-container__item {
-    padding: 5px;
-    display: grid;
-    justify-items: center;
-}
-
-.experiences-container__item p {
-    text-align: center;
-}
-
-.experiences-container__item p:first-child {
-    font-weight: bold;
-}
-
-.experiences-container__item {
-    border-right: 3px solid var(--color-grey);;
-}
-
-.experiences-container__item:last-child {
-    border-right: none;
-}
-
-.divider {
-    height: 4px;
-    width: 100%;
-    background: var(--color-grey);
-    border: none;
-    margin: 3px 0;
-    overflow: initial;
-    position: relative;
-}
-
-.divider--fancy:before {
-    content: "";
-    display: block;
-    position: absolute;
-    height: 10px;
-    width: 70px;
-    top: -3px;
-    border: none;
-    background: var(--color-green);
-}
-
-
-/*------------------------------------*\
-  # Footer
-\*------------------------------------*/
-.footer {
-    width: 100%;
-}
-
-.footer-container {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.footer-container__item {
-    text-align: center;
-    margin: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-items: center;
+  max-width: var(--size-containter);
+  width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
 }

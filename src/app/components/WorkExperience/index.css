@@ -1,0 +1,18 @@
+.work-experience__container-item {
+  padding: 5px;
+  display: grid;
+  justify-items: center;
+  border-right: 3px solid var(--color-grey);
+}
+
+.work-experience__container-item:last-child {
+  border-right: none;
+}
+
+.work-experience__container-item p {
+  text-align: center;
+}
+
+.work-experience__container-item p:first-child {
+  font-weight: bold;
+}

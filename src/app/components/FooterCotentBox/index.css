@@ -1,0 +1,24 @@
+.footer-container__item {
+  text-align: center;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+
+.footer-container__item-title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 16px;
+  background-color: var(--color-black);
+  padding: 0 24px;
+  color: var(--color-white);
+  display: inline-block;
+}
+
+.footer-container__item > * {
+  margin-bottom: 10px;
+}
