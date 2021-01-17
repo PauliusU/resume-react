@@ -1,11 +1,15 @@
 import "./index.css";
 import Select from "../Select";
+import translations from "../../translations";
 
-function Header({ profession, children }) {
+function Header({ lang, setLanguage, children }) {
+  const { header } = translations[lang];
+
   return (
     <header className="header">
       <div className="navigation">
         <Select
+          setLanguage={setLanguage}
           options={[
             { value: "en", children: "English" },
             { value: "lt", children: "Lietuvių" },
@@ -14,7 +18,7 @@ function Header({ profession, children }) {
       </div>
       <div className="header__name-container">
         <h1>{children}</h1>
-        <span className="header__name-title">{profession}</span>
+        <span className="header__name-title">{header}</span>
       </div>
     </header>
   );

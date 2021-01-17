@@ -1,29 +1,27 @@
 import "./index.css";
+import FooterContentBox from "./FooterCotentBox";
 import Link from "../Link";
-import FooterContentBox from "../FooterCotentBox";
+import translations from "../../translations";
 
-function Footer() {
+function Footer({ lang }) {
+  const { footer } = translations[lang];
+
   return (
     <footer className="footer">
-      <div className="footer-container">
-        <FooterContentBox title="address">
-          <p>Vilnius</p>
+      {footer.blocks.map((block, blockIndex) => (
+        <FooterContentBox key={blockIndex} title={block.title}>
+          {block.entries.map((entry, entryIndex) => {
+            if (entry.type === "link") {
+              return (
+                <Link key={entryIndex} linkLocation={entry.linkLocation}>
+                  {entry.content}
+                </Link>
+              );
+            }
+            return <p key={entryIndex}>{entry.content}</p>;
+          })}
         </FooterContentBox>
-        <FooterContentBox title="contact">
-          <Link linkLocation="tel:+37063634072">+370 636 34 072</Link>
-          <Link linkLocation="mailto:pauliusuosis@gmail.com">
-            pauliusuosis@gmail.com
-          </Link>
-        </FooterContentBox>
-        <FooterContentBox title="social">
-          <Link linkLocation="https://www.linkedin.com/in/paulius-uosis/">
-            LinkedId/paulius-uosis
-          </Link>
-          <Link linkLocation="https://github.com/pauliusu">
-            Github/pauliusu
-          </Link>
-        </FooterContentBox>
-      </div>
+      ))}
     </footer>
   );
 }
