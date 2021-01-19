@@ -4,7 +4,7 @@ function Select({ options = [], setLanguage }) {
   };
 
   return (
-    <select className="select" onSelect={handleSelect}>
+    <select className="select" onChange={handleSelect}>
       {options.map((optionData) => (
         <option key={optionData.value} {...optionData} />
       ))}
