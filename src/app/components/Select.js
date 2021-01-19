@@ -1,10 +1,10 @@
 function Select({ options = [], setLanguage }) {
-  const onChange = (event) => {
+  const handleSelect = (event) => {
     setLanguage(event.target.value);
   };
 
   return (
-    <select className="select" onChange={onChange}>
+    <select className="select" onSelect={handleSelect}>
       {options.map((optionData) => (
         <option key={optionData.value} {...optionData} />
       ))}

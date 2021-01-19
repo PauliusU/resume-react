@@ -33,8 +33,7 @@ const translations = {
       entries: [
         { title: "Teamwork", color: "green" },
         { title: "Communication", color: "yellow" },
-        { title: "Organization", color: "reddish" },
-        { title: "Leadership", color: "" },
+        { title: "Organization", color: "yellow" },
       ],
     },
     technicalSkills: {
@@ -134,8 +133,7 @@ const translations = {
       entries: [
         { title: "Komandinis darbas", color: "green" },
         { title: "Komunikacija", color: "yellow" },
-        { title: "Organizaciniai įgūdžiai", color: "reddish" },
-        { title: "Lyderystė", color: "" },
+        { title: "Organizaciniai įgūdžiai", color: "yellow" },
       ],
     },
     technicalSkills: {
