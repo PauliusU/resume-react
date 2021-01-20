@@ -9,6 +9,7 @@ function Header({ lang, setLanguage, children }) {
     <header className="header">
       <div className="navigation">
         <Select
+          value={lang}
           setLanguage={setLanguage}
           options={[
             { value: "en", children: "English" },
