@@ -2,8 +2,8 @@ import "./index.css";
 
 function FooterContentBox({ title, children }) {
   return (
-    <div className="footer-container__item">
-      <span className="footer-container__item-title">{title}</span>
+    <div className="footer-content-box">
+      <span className="footer-content-box__title">{title}</span>
       {children}
     </div>
   );

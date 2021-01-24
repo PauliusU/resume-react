@@ -1,4 +1,4 @@
-.footer-container__item {
+.footer-content-box {
   text-align: center;
   margin: 5px;
   display: flex;
@@ -7,7 +7,7 @@
   justify-items: center;
 }
 
-.footer-container__item-title {
+.footer-content-box__title {
   font-size: 24px;
   line-height: 28px;
   font-weight: 700;
@@ -19,6 +19,6 @@
   display: inline-block;
 }
 
-.footer-container__item > * {
+.footer-content-box > * {
   margin-bottom: 10px;
 }
