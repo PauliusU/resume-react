@@ -11,7 +11,7 @@ function Footer({ lang }) {
       {footer.blocks.map((block, blockIndex) => (
         <FooterContentBox key={blockIndex} title={block.title}>
           {block.entries.map((entry, entryIndex) => {
-            if (entry.type === "link") {
+            if (entry.linkLocation) {
               return (
                 <Link key={entryIndex} linkLocation={entry.linkLocation}>
                   {entry.content}

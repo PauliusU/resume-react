@@ -64,17 +64,15 @@ const translations = {
     },
     footer: {
       blocks: [
-        { title: "address", entries: [{ type: "text", content: "Vilnius" }] },
+        { title: "address", entries: [{ content: "Vilnius" }] },
         {
           title: "contact",
           entries: [
             {
-              type: "link",
               content: "+370 636 34 072",
               linkLocation: "tel:+37063634072",
             },
             {
-              type: "link",
               content: "pauliusuosis@gmail.com",
               linkLocation: "mailto:pauliusuosis@gmail.com",
             },
@@ -84,12 +82,10 @@ const translations = {
           title: "social",
           entries: [
             {
-              type: "link",
               content: "LinkedId/paulius-uosis",
               linkLocation: "https://www.linkedin.com/in/paulius-uosis/",
             },
             {
-              type: "link",
               content: "Github/pauliusu",
               linkLocation: "https://github.com/pauliusu",
             },
@@ -165,17 +161,15 @@ const translations = {
     },
     footer: {
       blocks: [
-        { title: "adresas", entries: [{ type: "text", content: "Vilnius" }] },
+        { title: "adresas", entries: [{ content: "Vilnius" }] },
         {
           title: "kontaktai",
           entries: [
             {
-              type: "link",
               content: "+370 636 34 072",
               linkLocation: "tel:+37063634072",
             },
             {
-              type: "link",
               content: "pauliusuosis@gmail.com",
               linkLocation: "mailto:pauliusuosis@gmail.com",
             },
@@ -185,12 +179,10 @@ const translations = {
           title: "socialiniai tinklai",
           entries: [
             {
-              type: "link",
               content: "LinkedId/paulius-uosis",
               linkLocation: "https://www.linkedin.com/in/paulius-uosis/",
             },
             {
-              type: "link",
               content: "Github/pauliusu",
               linkLocation: "https://github.com/pauliusu",
             },
