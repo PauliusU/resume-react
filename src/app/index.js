@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div className="App">
-      <ErrorBoundary>
+      <ErrorBoundary lang={language}>
         <Header lang={language} setLanguage={setLanguage}>
           Paulius Uosis
         </Header>

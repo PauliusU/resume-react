@@ -46,19 +46,19 @@ const translations = {
           position: "Associate",
           employer: "Law firm FORT Vilnius",
           duration: "2018-2020",
-          description: "{Here goes description}",
+          description: "",
         },
         {
           position: "Associate",
           employer: "Law firm Sakavičius, Gogolev & partners PROLAW",
           duration: "2013-2018",
-          description: "{Here goes description}",
+          description: "",
         },
         {
           position: "Legal assistant",
           employer: "Law firm SORAINEN",
           duration: "2012",
-          description: "{Here goes description}",
+          description: "",
         },
       ],
     },
@@ -97,6 +97,7 @@ const translations = {
         },
       ],
     },
+    errorMessage: "Whoops something broken",
   },
   lt: {
     header: "programuotojas",
@@ -146,19 +147,19 @@ const translations = {
           position: "Advokato padėjėjas",
           employer: "Advokatų kontora FORT Vilnius",
           duration: "2018-2020",
-          description: "{Apibūdinimas}",
+          description: "",
         },
         {
           position: "Advokato padėjėjas",
           employer: "Advokatų kontora Sakavičius, Gogolev ir partneriai PROLAW",
           duration: "2013-2018",
-          description: "{Apibūdinimas}",
+          description: "",
         },
         {
           position: "Teisininkas",
           employer: "Advokatų kontora SORAINEN",
           duration: "2012",
-          description: "{Apibūdinimas}",
+          description: "",
         },
       ],
     },
@@ -198,6 +199,7 @@ const translations = {
       ],
     },
   },
+  errorMessage: "Ups, įvyko klaida",
 };
 
 export default translations;
